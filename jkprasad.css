@@ -40,7 +40,7 @@ body{
 .logo-icon{color:var(--nav-accent);margin-left:6px}
 
 /* nav menu */
-.nav-menu{list-style:none;margin:0;padding:0;display:flex;gap:1.1rem;align-items:center}
+.nav-menu{display:flex;align-items:center;justify-content:space-between ;list-style:none;margin:0;padding:0;display:flex;gap:1.1rem;align-items:center}
 .nav-menu li a{color:var(--text);text-decoration:none;padding:.5rem;transition:all .2s}
 .nav-menu li a:hover,.nav-menu li a.active{color:var(--nav-accent);transform:translateY(-2px)}
 .nav-cta .btn{margin-left:1rem}
